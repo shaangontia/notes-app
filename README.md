@@ -7,13 +7,13 @@ It Provides below funcationalities:
 	4. List all Notes.
 
 To add a note:
-	node app.js add --title=<yourtitle> --body=<content>
+	node app.js add --title="yourtitle" --body="content"
 
 To read a note
-	node app.js read --title=<titleToRead>
+	node app.js read --title="titleToRead"
 
 To remove a note
-	node app.js remove --title=<noteToRemove>
+	node app.js remove --title="noteTitleTo Remove"
 
 To list all notes
 	node app.js list
